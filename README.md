@@ -6,12 +6,13 @@ Guidelines for using Allen &amp; Overy GitHub repositories.
 ## Install Git
 
 ## Local Repo
-To use this repository create a folder called github-guidelines.  Navigate to your newly created folder via a bash terminal 
-`cd github-guidelines`
-- $ git status
-- fatal: Not a git repository (or any of the parent directories): .git
-- $ git init
-- Initialized empty Git repository in /Users/furrm/Projects/allen-overy/github-guidelines/.git/
+To use this repository create a folder called github-guidelines.  Navigate to your newly created folder via a bash terminal and execute the following git commands. 
+
+`cd github-guidelines
+$ git init
+$ git status`
+
+Note that while you are grasping GitHub concepts, you should continually execute the `$ git status` command to understand the state of you local repo.
 
 ##Connect to the Repository
 // todo: Proxy
