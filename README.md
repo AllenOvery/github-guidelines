@@ -14,7 +14,7 @@ $ git init
 $ git status
 ````
 
-Note that while you are grasping GitHub concepts, you should continually execute the `$ git status` command to understand the state of you local repo.
+>Note that while you are grasping GitHub concepts, you should continually execute the `$ git status` command to understand the state of you local repo.
 
 ##Connect to the Repository
 // todo: Proxy
