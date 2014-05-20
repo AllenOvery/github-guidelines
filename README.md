@@ -17,5 +17,8 @@ Initialized empty Git repository in /Users/furrm/Projects/allen-overy/github-gui
 ##Connect to the Repository
 
 ###From DEV
+$ git remote add origin https://{username}@github.com/furrmao/github-guidelines.git
+$ git remote -v
+$ git pull origin master
 
 ###Outside of DEV
