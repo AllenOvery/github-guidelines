@@ -8,9 +8,11 @@ Guidelines for using Allen &amp; Overy GitHub repositories.
 ## Local Repo
 To use this repository create a folder called github-guidelines.  Navigate to your newly created folder via a bash terminal and execute the following git commands. 
 
-`cd github-guidelines
+```
+cd github-guidelines
 $ git init
-$ git status`
+$ git status
+````
 
 Note that while you are grasping GitHub concepts, you should continually execute the `$ git status` command to understand the state of you local repo.
 
