@@ -7,17 +7,17 @@ Guidelines for using Allen &amp; Overy GitHub repositories.
 
 ## Local Repo
 To use this repository...
-Create a folder called github-guidelines.
-Navigate to your newly created folder via a bash terminal - cd github-guidelines.
-$ git status
-fatal: Not a git repository (or any of the parent directories): .git
-$ git init
-Initialized empty Git repository in /Users/furrm/Projects/allen-overy/github-guidelines/.git/
+- Create a folder called github-guidelines.
+- Navigate to your newly created folder via a bash terminal - cd github-guidelines.
+- $ git status
+- fatal: Not a git repository (or any of the parent directories): .git
+- $ git init
+- Initialized empty Git repository in /Users/furrm/Projects/allen-overy/github-guidelines/.git/
 
 ##Connect to the Repository
-
+// todo: Proxy
 ###From DEV
-$ git remote add origin https://{username}@github.com/furrmao/github-guidelines.git
+$ git remote add origin https://{username}@github.com/allenovery/github-guidelines.git
 $ git remote -v
 $ git pull origin master
 
