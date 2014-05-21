@@ -177,6 +177,12 @@ Once you are happy with the merged changes, delete the local branch.
 $ git branch -d 1-branchingSectionUpdate
 ````
 
+It is possible, but not recommended to delete the remote branch.
+
+````
+$ git push origin --delete 1-branchingSectionUpdate
+````
+
 > One final step that might get forgotten is to ensure that you have closed the related issue.
  
 ##Resolving Conflicts
