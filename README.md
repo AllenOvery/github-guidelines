@@ -134,12 +134,18 @@ $ git checkout 1-branchingSectionUpdate
 Check which branch you are on.
 
 ````
+$ git branch
+````
+OR
+````
 $ git status
 ````
 
 >Always ensure that you are on the correct branch when making your code changes.
 
 ##Merge Changes to Master
+
+When carrying out branch merges, note that you are merging on the local repo.  Nothing changes on the remote repo until you push the changes.
 
 Switch to the master branch.
 
@@ -153,9 +159,15 @@ Merge changes from the 1-branchingSectionUpdate branch to the master branch.
 $ git merge 1-branchingSectionUpdate
 ````
 
-GitHub should resolve any conflicts automatically.
+Git should resolve any conflicts automatically.
 
 >Note that if the automatic merge does not work you will be resolve any conflicts.  Please see the Resolving Conflicts section of this guide.
+
+Now, push to the remote repo.
+
+````
+$ git push origin master
+````
 
 ##Delete Branch
 
@@ -164,12 +176,10 @@ Once you are happy with the merged changes, delete the local branch.
 ````
 $ git branch -d 1-branchingSectionUpdate
 ````
+
+> One final step that might get forgotten is to ensure that you have closed the related issue.
  
 ##Resolving Conflicts
 ...
 ...
 ...
-
-
-
-
