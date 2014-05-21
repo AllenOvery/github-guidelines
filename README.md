@@ -111,6 +111,11 @@ $ git add -u
 $ git commit -m "made some text changes"
 ````
 
+Then push your changes.
+
+````
+git push origin 1-branchingSectionUpdate
+````
 
 ###Switch branches
 
@@ -126,9 +131,44 @@ Switch back to 1-branchingSectionUpdate
 $ git checkout 1-branchingSectionUpdate
 ````
 
+Check which branch you are on.
+
+````
+$ git status
+````
+
 >Always ensure that you are on the correct branch when making your code changes.
 
+##Merge Changes to Master
 
+Switch to the master branch.
+
+````
+$ git checkout master
+````
+
+Merge changes from the 1-branchingSectionUpdate branch to the master branch.
+
+````
+$ git merge 1-branchingSectionUpdate
+````
+
+GitHub should resolve any conflicts automatically.
+
+>Note that if the automatic merge does not work you will be resolve any conflicts.  Please see the Resolving Conflicts section of this guide.
+
+##Delete Branch
+
+Once you are happy with the merged changes, delete the local branch.
+
+````
+$ git branch -d 1-branchingSectionUpdate
+````
+ 
+##Resolving Conflicts
+...
+...
+...
 
 
 
