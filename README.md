@@ -76,6 +76,10 @@ For now we will use the following convention:
 
 1-branchingSectionUpdate
 
+####Personal Branch
+
+For personal branches, please use {firstName}-{lastName} naming convention, that is, Joe Bloggs would have a personal branch called joe-bloggs.
+
 ###Create Branch
 
 Create a new branch called 1-branchingSectionUpdate.
