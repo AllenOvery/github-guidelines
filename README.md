@@ -72,9 +72,9 @@ This concept also requires the user to create an issue first in relation to any 
 
 For now we will use the following convention:
 
-{issue id}:{issue name)
+{issue id}-{issue-name)
 
-1-branchingSectionUpdate
+1-branching-sections-update
 
 ####Personal Branch
 
@@ -82,28 +82,28 @@ For personal branches, please use {firstName}-{lastName} naming convention, that
 
 ###Create Branch
 
-Create a new branch called 1-branchingSectionUpdate.
+Create a new branch called 1-branching-sections-update.
 
 ````
-$ git branch 1-branchingSectionUpdate
+$ git branch 1-branching-sections-update
 ````
 
-Make 1-branchingSectionUpdate the active branch.
+Make 1-branching-sections-update the active branch.
 
 ````
-$ git checkout 1-branchingSectionUpdate
+$ git checkout 1-branching-sections-update
 ````
 
 Or use the following shortcut.
 
 ````
-$ git checkout -b 1-branchingSectionUpdate
+$ git checkout -b 1-branching-sections-update
 ````
 
 >Note that at this point you have created a local branch.  The remote branch will not exist until you have made a push to the new branch
 
 ````
-$ git push origin 1-branchingSectionUpdate
+$ git push origin 1-branching-sections-update
 ````
 
 ###Add to branch
@@ -118,7 +118,7 @@ $ git commit -m "made some text changes"
 Then push your changes.
 
 ````
-git push origin 1-branchingSectionUpdate
+git push origin 1-branching-sections-update
 ````
 
 ###Switch branches
@@ -129,10 +129,10 @@ Switch to master.
 $ git checkout master
 ````
 
-Switch back to 1-branchingSectionUpdate
+Switch back to 1-branching-sections-update
 
 ````
-$ git checkout 1-branchingSectionUpdate
+$ git checkout 1-branching-sections-update
 ````
 
 Check which branch you are on.
@@ -157,10 +157,10 @@ Switch to the master branch.
 $ git checkout master
 ````
 
-Merge changes from the 1-branchingSectionUpdate branch to the master branch.
+Merge changes from the 1-branching-sections-update branch to the master branch.
 
 ````
-$ git merge 1-branchingSectionUpdate
+$ git merge 1-branching-sections-update
 ````
 
 Git should resolve any conflicts automatically.
@@ -178,13 +178,13 @@ $ git push origin master
 Once you are happy with the merged changes, delete the local branch.
 
 ````
-$ git branch -d 1-branchingSectionUpdate
+$ git branch -d 1-branching-sections-update
 ````
 
 It is possible, **but not recommended** to delete the remote branch.
 
 ````
-$ git push origin --delete 1-branchingSectionUpdate
+$ git push origin --delete 1-branching-sections-update
 ````
 
 > One final step that might get forgotten is to ensure that you have closed the related issue.
